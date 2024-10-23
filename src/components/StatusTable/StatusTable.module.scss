@@ -1,9 +1,6 @@
 .tableContainer {
-  overflow-x: auto;
-  margin: 2rem auto;
-  max-width: 1000px;
   padding: 2rem;
-  background-color: #fff;
+
   border-radius: 12px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
   transition: box-shadow 0.3s ease;
@@ -37,13 +34,6 @@
     border-bottom: 2px solid #ddd;
   }
 
-  td {
-    background-color: white;
-  }
-
-  tr:nth-child(even) td {
-    background-color: #f9f9f9;
-  }
 
   tr:hover td {
     background-color: #e9f5ff;
@@ -62,3 +52,17 @@
     border-bottom-right-radius: 8px;
   }
 }
+
+// Classes for row colors
+.statusApproved {
+  background-color: #d4edda !important; // Light green background for approved
+}
+
+.statusRejected {
+  background-color: #f8d7da !important; // Light red background for rejected
+}
+
+.statusPending {
+  background-color: #fff3cd !important; // Light yellow background for pending
+}
+
