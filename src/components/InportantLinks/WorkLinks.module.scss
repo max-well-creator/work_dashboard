@@ -1,12 +1,16 @@
-.WorkLinks {
-  max-width: 600px;
-  margin: 2rem auto;
-  padding: 2rem;
+.workLinksContainer {
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem 1rem;
   background-color: #fff;
   border-radius: 12px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
   text-align: center;
   transition: box-shadow 0.3s ease;
+
+  &:hover {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  }
 
   h2 {
     color: #333;
@@ -14,10 +18,17 @@
     margin-bottom: 1.5rem;
     font-weight: 600;
   }
+}
 
-  div {
-    margin: 1rem 0;
-  }
+.linksContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem; // Space between the links
+}
+
+.linkItem {
+  margin: 1rem 0;
 
   a {
     display: inline-block;
@@ -40,9 +51,5 @@
       transform: translateY(0);
       box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
     }
-  }
-
-  &:hover {
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
   }
 }

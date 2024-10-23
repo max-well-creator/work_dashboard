@@ -1,8 +1,5 @@
-import "bootstrap/dist/css/bootstrap.min.css";
 import "./globals.scss";
 import CustomNav from "@/components/CustomNav/nav";
-
-import styles from "./layout.module.scss";
 
 export const metadata = {
 	title: "Work Dashboard",
@@ -16,9 +13,9 @@ export default function RootLayout({ children }) {
 				<title>{metadata.title}</title>
 				<meta name="description" content={metadata.description} />
 			</head>
-			<body className="layout-body">
+			<body>
 				<CustomNav />
-				<main className="container">{children}</main>
+				<main>{children}</main>
 			</body>
 		</html>
 	);

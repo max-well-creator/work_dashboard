@@ -1,79 +1,68 @@
 .schedule {
-  background-color: #fff;
   padding: 2rem;
+
   border-radius: 12px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
-  margin-top: 2rem;
-  max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
   transition: box-shadow 0.3s ease;
 
   &:hover {
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
-  }
-
-  h2 {
-    text-align: center;
-    font-size: 1.8rem;
-    font-weight: 600;
-    margin-bottom: 1.5rem;
-    color: #333;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
   }
 }
 
 .table {
-  margin-top: 1rem;
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: 1rem;
+  color: #333;
 
-  .table {
-    border-collapse: separate;
-    border-spacing: 0;
-    width: 100%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
-    overflow: hidden;
-    border-radius: 8px;
+  th,
+  td {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    text-align: left;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
 
-    th,
-    td {
-      padding: 1rem;
-      text-align: left;
-      transition: background-color 0.3s ease, color 0.3s ease;
-    }
+  th {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    border-bottom: 2px solid #ddd;
+  }
 
-    th {
-      background: linear-gradient(135deg, #6a11cb, #2575fc);
-      color: white;
-      font-weight: bold;
-      text-transform: uppercase;
-      letter-spacing: 0.05rem;
-      border-bottom: 2px solid #ddd;
-    }
 
-    td {
-      background-color: white;
-      font-size: 1rem;
-      color: #333;
-    }
+  tr:hover td {
+    background-color: #e9f5ff;
+    color: #000;
+  }
 
-    tr:nth-child(even) td {
-      background-color: #f9f9f9;
-    }
+  th:first-child,
+  td:first-child {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
 
-    tr:hover td {
-      background-color: #e9f5ff;
-      color: #000;
-    }
-
-    th:first-child,
-    td:first-child {
-      border-top-left-radius: 8px;
-      border-bottom-left-radius: 8px;
-    }
-
-    th:last-child,
-    td:last-child {
-      border-top-right-radius: 8px;
-      border-bottom-right-radius: 8px;
-    }
+  th:last-child,
+  td:last-child {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
   }
 }
+
+// Classes for row colors
+.statusApproved {
+  background-color: #d4edda !important; // Light green background for approved
+}
+
+.statusRejected {
+  background-color: #f8d7da !important; // Light red background for rejected
+}
+
+.statusPending {
+  background-color: #fff3cd !important; // Light yellow background for pending
+}
+

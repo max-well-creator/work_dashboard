@@ -5,7 +5,7 @@ import styles from "./Contacts.module.scss";
 
 export default function WorkContacts() {
 	return (
-		<div>
+		<div className={styles.contacts}>
 			<div className={styles.AGContacts}>
 				<ContactsTable contacts={AGContacts} />
 			</div>
