@@ -17,7 +17,7 @@ export const stateFrequencies = [
 		state: "Arizona",
 		frequency: "Quarterly",
 		how_to_submit:
-			"Mail to Arizona Department of Agriculture 1802 W. Jackson St. #78 Phoenix, AZ 85007. Make check payable to Arizona Department of Agriculture.",
+			"Arizona Department of Agriculture 1802 W. Jackson St. #78 Phoenix, AZ 85007. Make check payable to Arizona Department of Agriculture.",
 	},
 	{
 		state: "Delaware",
@@ -35,7 +35,7 @@ export const stateFrequencies = [
 		state: "Indiana",
 		frequency: "Twice a year",
 		how_to_submit:
-			"Mail to Office of Indiana State Chemist Purdue University 175 S. University Street West Lafayette, IN 47907-206.",
+			"Office of Indiana State Chemist Purdue University 175 S. University Street West Lafayette, IN 47907-206.",
 	},
 	{
 		state: "Pennsylvania",
@@ -47,7 +47,7 @@ export const stateFrequencies = [
 		state: "New Mexico",
 		frequency: "Twice a year",
 		how_to_submit:
-			'Email to <a href="mailto:tonnage@nmda.nmsu.edu">tonnage@nmda.nmsu.edu</a>.',
+			'<a href="mailto:tonnage@nmda.nmsu.edu">tonnage@nmda.nmsu.edu</a>.',
 	},
 	{
 		state: "Michigan",
@@ -59,7 +59,7 @@ export const stateFrequencies = [
 		state: "Minnesota",
 		frequency: "Yearly",
 		how_to_submit:
-			"Mail to MINNESOTA DEPARTMENT OF AGRICULTURE Attn: Cashier 625 Robert Street North Saint Paul, MN 55155-2538.",
+			"MINNESOTA DEPARTMENT OF AGRICULTURE \n Attn: Cashier \n 625 Robert Street North Saint Paul, MN 55155-2538.",
 	},
 	{
 		state: "Mississippi",

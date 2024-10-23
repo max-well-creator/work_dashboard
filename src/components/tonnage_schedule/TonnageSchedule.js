@@ -1,13 +1,12 @@
-import { stateFrequencies } from "@/app/data/stateFrequencies";
+import { stateFrequencies } from "@/data/stateFrequencies";
 import React from "react";
 import { Table } from "reactstrap";
 
-import styles from "./TonnageSchedule.scss";
+import styles from "./TonnageSchedule.module.scss";
 
 export default function TonnageSchedule() {
 	return (
 		<section className={styles.schedule}>
-			<h2>Tonnage Reporting Schedule</h2>
 			<div className={styles.table}>
 				<Table hover responsive striped>
 					<thead>
