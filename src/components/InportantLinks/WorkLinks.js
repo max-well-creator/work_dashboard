@@ -1,12 +1,11 @@
-import { links } from "@/data/workLinks";
-import Link from "next/link";
 import React from "react";
+import Link from "next/link";
 import styles from "./WorkLinks.module.scss";
 
-export default function WorkLinks() {
+export default function WorkLinks({ title, links }) {
 	return (
-		<div className={styles.workLinksContainer}>
-			<h2>Work Links</h2>
+		<div className={styles.container}>
+			<h2>{title}</h2>
 			<div className={styles.linksContainer}>
 				{links.map((link, index) => {
 					return (

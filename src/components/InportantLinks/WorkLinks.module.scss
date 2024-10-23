@@ -1,33 +1,25 @@
-.workLinksContainer {
-  width: 100%;
-  margin: 0 auto;
+.container {
+  margin: 2%;
   padding: 2rem 1rem;
   background-color: #fff;
   border-radius: 12px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
   text-align: center;
   transition: box-shadow 0.3s ease;
-
-  &:hover {
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
-  }
-
-  h2 {
-    color: #333;
-    font-size: 1.8rem;
-    margin-bottom: 1.5rem;
-    font-weight: 600;
-  }
+  min-width: 300px;
+  min-height: 300px; // Ensures all boxes have the same minimum height
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .linksContainer {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1.5rem; // Space between the links
+
+  gap: 1.5rem;
 }
 
 .linkItem {
+  flex-grow: 1;
   margin: 1rem 0;
 
   a {

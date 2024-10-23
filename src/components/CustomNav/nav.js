@@ -30,7 +30,7 @@ export default function CustomNav() {
 					</li>
 					<li className={styles.navItem}>
 						<Link href="/contacts" className={styles.navLink}>
-							Work Contacts
+							Employee Directory
 						</Link>
 					</li>
 				</ul>
