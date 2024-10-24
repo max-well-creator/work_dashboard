@@ -3,63 +3,39 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #fff;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  border-radius: 12px;
-  transition: box-shadow 0.3s ease;
-
-  &:hover {
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
-  }
-}
-
-.brand {
-  flex: 1;
-}
-
-.brandText {
-  font-weight: 700;
-  font-size: 1.8rem;
-  color: #2575fc;
-  transition: color 0.3s ease;
-
-  &:hover {
-    color: #1a5ccd;
-  }
-}
-
-.navContent {
-  flex: 2;
-  display: flex;
-  justify-content: center;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: sticky;
+    top: 0;
+  z-index: 1000; /* Ensures it stays above other content */
+  background-color: #fff; /* Optional: Ensure background is visible */
 }
 
 .navList {
-  list-style: none;
   display: flex;
-  gap: 2rem;
-  padding: 0;
-  margin: 0;
+  gap: 1.5rem;
+  list-style: none;
 }
 
 .navItem {
-  position: relative;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.navItem:hover {
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .navLink {
+  color: white;
   text-decoration: none;
   font-weight: 500;
-  font-size: 1.1rem;
-  color: #333;
-  transition: color 0.3s ease, transform 0.2s ease;
+  transition: color 0.3s ease;
+}
 
-  &:hover {
-    color: #2575fc;
-    transform: translateY(-2px);
-  }
-
-  &[aria-current="page"] {
-    color: #2575fc;
-    font-weight: 700;
-  }
+.navLink:hover {
+  color: #f1f1f1;
+  text-decoration: underline;
 }
