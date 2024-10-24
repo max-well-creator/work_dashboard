@@ -65,3 +65,13 @@ export const SalesSites = [
 		url: "https://www.max-goodness.com/",
 	},
 ];
+export const PaymentProcessor = [
+	{
+		title: "Max-Well/AG-USA",
+		url: "https://account.authorize.net/ui/themes/wellsfargo/home.aspx",
+	},
+	{
+		title: "Aquavive",
+		url: "https://www.max-goodness.com/",
+	},
+];

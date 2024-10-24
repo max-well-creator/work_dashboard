@@ -6,6 +6,7 @@ import {
 	CRMLinks,
 	ReportLinks,
 	SalesSites,
+	PaymentProcessor,
 } from "@/data/workLinks";
 
 import React from "react";
@@ -36,6 +37,9 @@ export default function Home() {
 				</div>
 				<div styles={styles.salesLinks}>
 					<WorkLinks title="Sales" links={SalesSites} />
+				</div>
+				<div styles={styles.paymentProcessor}>
+					<WorkLinks title="Payment" links={PaymentProcessor} />
 				</div>
 			</div>
 		</div>
