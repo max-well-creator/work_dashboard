@@ -1,16 +1,25 @@
 .workLinksContainer {
   display: flex;
-  justify-content: space-around;
   flex-wrap: wrap;
   gap: 2rem;
   margin: 2%;
-
-
-
+  justify-content: space-around;
   h2 {
     color: #333;
     font-size: 1.8rem;
     margin-bottom: 1.5rem;
     font-weight: 600;
-  }
+}
+}
+
+.customerLinks, 
+.backOfficeLinks, 
+.fileStoringLinks, 
+.serverLinks, 
+.cRMLinks, 
+.reportLinks, 
+.salesLinks {
+
+  height: 400px; // Uniform height for all boxes
+  box-sizing: border-box;
 }
