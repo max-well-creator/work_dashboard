@@ -7,6 +7,7 @@ import {
 	ReportLinks,
 	SalesSites,
 	PaymentProcessor,
+	MaxWellWebsites,
 } from "@/data/workLinks";
 
 import React from "react";
@@ -40,6 +41,9 @@ export default function Home() {
 				</div>
 				<div styles={styles.paymentProcessor}>
 					<WorkLinks title="Payment" links={PaymentProcessor} />
+				</div>
+				<div styles={styles.MaxWellWebsites}>
+					<WorkLinks title="Max-Well Links" links={MaxWellWebsites} />
 				</div>
 			</div>
 		</div>

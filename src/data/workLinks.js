@@ -19,14 +19,6 @@ export const BackOfficeLinks = [
 		title: "AG-USA",
 		url: "https://ag-usa.net/vsadmin/login.php",
 	},
-	{
-		title: "maxgoodness (new site)",
-		url: "https://admin.shopify.com/store/5649a3-b0",
-	},
-	{
-		title: "maxgoodness (old site)",
-		url: "https://my.ecwid.com/store/84511114?_gl=1*18xzb6l*_up*MQ..#dashboard:wizard=tiles",
-	},
 ];
 
 export const FileStoringLinks = [
@@ -73,5 +65,26 @@ export const PaymentProcessor = [
 	{
 		title: "Aquavive",
 		url: "https://www.max-goodness.com/",
+	},
+];
+
+export const MaxWellWebsites = [
+	{
+		title: "maxgoodness (new site)",
+		url: "https://admin.shopify.com/store/5649a3-b0",
+	},
+	{
+		title: "maxgoodness (old site)",
+		url: "https://my.ecwid.com/store/84511114?_gl=1*18xzb6l*_up*MQ..#dashboard:wizard=tiles",
+	},
+	{
+		title: "Repo",
+		description: "maxgoodness.com code repository",
+		url: "https://github.com/",
+	},
+	{
+		title: "Vercel",
+		description: "maxgoodness.com code hosting platform",
+		url: "https://vercel.com/login",
 	},
 ];
