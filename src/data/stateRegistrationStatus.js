@@ -169,12 +169,11 @@ const statesRegData = [
 		id: 15,
 		state: "Indiana",
 		license_statues: APPROVED,
-		a_status:
-			"A and O are fertilizers. Got emailed a soil amendment form on 9-30-24. Filled out the form and emailed Sarah to mail the form and a check on 9-30-24. Sarah said she will be sending the check today 10-4-24.",
-		o_status: "Pending Approval",
+		a_status: APPROVED,
+		o_status: APPROVED,
 		notes: "",
 		a_expiration: "December 2024",
-		o_expiration: "",
+		o_expiration: "December 2024",
 		color: APPROVED_COLOR,
 	},
 	{
