@@ -7,15 +7,17 @@ export default function WorkLinks({ title, links }) {
 		<div className={styles.container}>
 			<h2>{title}</h2>
 			<div className={styles.linksContainer}>
-				{links.map((link, index) => {
-					return (
+				{links.length > 0 &&
+					links.map((link, index) => (
 						<div key={index} className={styles.linkItem}>
 							<Link href={link.url} target="_blank">
 								{link.title}
 							</Link>
+							{link.description && (
+								<p className={styles.linkDescription}>{link.description}</p>
+							)}
 						</div>
-					);
-				})}
+					))}
 			</div>
 		</div>
 	);

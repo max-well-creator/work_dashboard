@@ -5,7 +5,7 @@ export const stateFrequencies = [
 		state: "Arkansas",
 		frequency: "Monthly",
 		how_to_submit:
-			'Email zero ton report to <a href="mailto:fertilizer@agriculture.arkansas.gov">fertilizer@agriculture.arkansas.gov</a>. If there is tonnage mail to Arkansas Department of Agriculture Plant Industries Division, ATTN: Fertilizer Section. 1 Natural Resources Drive, Little Rock, AR 72205. Make Check Payable to Arkansas Department of Agriculture.',
+			'Email zero ton report to <a href="mailto:fertilizer@agriculture.arkansas.gov">fertilizer@agriculture.arkansas.gov</a>. If there is tonnage pay <a href="https://payments.statesolutions.us/?AID=63236C49690A4EF484D709986A07A969 target="_blank" rel="noopener noreferrer"">online</a>',
 	},
 	{
 		state: "New Mexico",
