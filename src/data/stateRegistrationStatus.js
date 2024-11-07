@@ -48,9 +48,11 @@ const statesRegData = [
 		a_status: APPROVED,
 		o_status: APPROVED,
 		notes: "",
-		a_expiration: "December 2024",
-		o_expiration: "",
+		a_expiration: "December 2025",
+		o_expiration: "December 2025",
 		color: APPROVED_COLOR,
+		renew_at:
+			'Renew registrations at <a href="https://www.kellysolutions.com/erenewals/login.aspx?ReturnUrl=/erenewals/soil/default.aspx" target= "_blank"> Wyoming Renewal</a>  username : agusallc1  password : 748576541',
 	},
 	{
 		id: 5,
@@ -59,9 +61,11 @@ const statesRegData = [
 		a_status: APPROVED,
 		o_status: APPROVED,
 		notes: "",
-		a_expiration: "",
-		o_expiration: "",
+		a_expiration: "Paid for Renewal on 11-6-24",
+		o_expiration: "Paid for Renewal on 11-6-24",
 		color: APPROVED_COLOR,
+		renew_at:
+			'Renew registrations at <a href="https://nda.nebraska.gov/online/ffal.html" target= "_blank"> Online Renewal</a> with ID #: 19181',
 	},
 	{
 		id: 6,
@@ -106,9 +110,11 @@ const statesRegData = [
 		a_status: APPROVED,
 		o_status: APPROVED,
 		notes: "",
-		a_expiration: "",
-		o_expiration: "",
+		a_expiration: "December 2025",
+		o_expiration: "December 2025",
 		color: APPROVED_COLOR,
+		renew_at:
+			'Renew registrations at <a href="https://mtplants.mt.gov/OktaSSOLogin.aspx" target= "_blank"> Montana Renewal</a>  \nMontana plants id: 002XT9 Montana Pin Id: 47800.',
 	},
 	{
 		id: 10,
@@ -139,9 +145,11 @@ const statesRegData = [
 		a_status: APPROVED,
 		o_status: APPROVED,
 		notes: "",
-		a_expiration: "December 2024",
-		o_expiration: "",
+		a_expiration: "Paid for Renewal on 11-6-24",
+		o_expiration: "Paid for Renewal on 11-6-24",
 		color: APPROVED_COLOR,
+		renew_at:
+			'Renew registrations at <a href="https://webapp.ag.utah.gov/productRegistration/registrant.jsp" target= "_blank">Utah Department of Agriculture and Food Online</a> with CUSTOMER No. 12245829 And PIN 221030',
 	},
 	{
 		id: 13,
