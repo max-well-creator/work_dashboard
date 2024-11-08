@@ -68,6 +68,12 @@ export const stateFrequencies = [
 			'<a href="https://agnet.mdac.ms.gov/fflsp/account/login" target="_blank" rel="noopener noreferrer">https://agnet.mdac.ms.gov</a>',
 	},
 	{
+		state: "Utah",
+		frequency: "Yearly",
+		how_to_submit:
+			'<a href="https://agnet.mdac.ms.gov/fflsp/account/login" target="_blank" rel="noopener noreferrer">https://agnet.mdac.ms.gov</a>. Mail a check to: SOB South Building, Floor 2 Taylorsville, UT 84129-2128',
+	},
+	{
 		state: "North Dakota",
 		frequency: "Yearly",
 		how_to_submit:
