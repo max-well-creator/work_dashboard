@@ -52,7 +52,7 @@ const statesRegData = [
 		o_expiration: "December 2025",
 		color: APPROVED_COLOR,
 		renew_at:
-			'Renew registrations at <a href="https://www.kellysolutions.com/erenewals/login.aspx?ReturnUrl=/erenewals/soil/default.aspx" target= "_blank"> Wyoming Renewal</a>  username : agusallc1  password : 748576541',
+			'Renew registrations at <a href="https://www.kellysolutions.com/erenewals/login.aspx?ReturnUrl=/erenewals/soil/default.aspx" target= "_blank"> Wyoming Renewal</a>',
 	},
 	{
 		id: 5,
@@ -202,9 +202,11 @@ const statesRegData = [
 		a_status: APPROVED,
 		o_status: APPROVED,
 		notes: "",
-		a_expiration: "December 2024",
-		o_expiration: "",
+		a_expiration: "December 2025",
+		o_expiration: "December 2025",
 		color: APPROVED_COLOR,
+		renew_at:
+			'Renew registrations at <a href="https://www.kellysolutions.com/erenewals/login.aspx?ReturnUrl=/erenewals/Fertilizer/default.aspx" target= "_blank">Online</a>',
 	},
 	{
 		id: 18,
