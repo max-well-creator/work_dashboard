@@ -180,8 +180,8 @@ const statesRegData = [
 		a_status: APPROVED,
 		o_status: APPROVED,
 		notes: "",
-		a_expiration: "December 2024",
-		o_expiration: "December 2024",
+		a_expiration: "Sarah will send a check on 11-12-24",
+		o_expiration: "Sarah will send a check on 11-12-24",
 		color: APPROVED_COLOR,
 	},
 	{
@@ -271,8 +271,8 @@ const statesRegData = [
 		a_status: APPROVED,
 		o_status: APPROVED,
 		notes: "",
-		a_expiration: "December 2024",
-		o_expiration: "",
+		a_expiration: "Sarah will send a check on 11-12-24",
+		o_expiration: "Sarah will send a check on 11-12-24",
 		color: APPROVED_COLOR,
 	},
 	{
@@ -283,8 +283,8 @@ const statesRegData = [
 		o_status: APPROVED,
 		notes:
 			"Beginning January 1, 2026, a fertilizer, soil and plant amendment, or agricultural liming product manufacturer must annually provide a statement that a product contains no intentionally added PFAS.Beginning January 1, 2032, the commissioner may not register any fertilizers, soil and plant amendments, and agricultural liming materials product that contains intentionally added PFAS unless the commissioner determines that the use of PFAS is a currently unavoidable use. ",
-		a_expiration: "December 2024",
-		o_expiration: "",
+		a_expiration: "Paid online on 11-12-24",
+		o_expiration: "Paid online on 11-12-24",
 		color: APPROVED_COLOR,
 	},
 	{

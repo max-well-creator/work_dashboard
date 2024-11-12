@@ -36,7 +36,12 @@ export const Server = [
 	{
 		title: "Email Login",
 		description: "AG-USA/Max-Well email servers",
-		url: "https://cp.hostek.com/index.php?rp=/login",
+		url: "https://wcp.hostek.com/Login.aspx",
+	},
+	{
+		title: "cPanel Login for AG-USA",
+		description: "AG-USA cPanel",
+		url: "https://ag-usa.net:2083/",
 	},
 ];
 
