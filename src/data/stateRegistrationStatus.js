@@ -38,7 +38,7 @@ const statesRegData = [
 		o_status: APPROVED,
 		notes: "",
 		a_expiration: "January 2025",
-		o_expiration: "",
+		o_expiration: "January 2025",
 		color: APPROVED_COLOR,
 	},
 	{
@@ -61,8 +61,8 @@ const statesRegData = [
 		a_status: APPROVED,
 		o_status: APPROVED,
 		notes: "",
-		a_expiration: "Paid for Renewal on 11-6-24",
-		o_expiration: "Paid for Renewal on 11-6-24",
+		a_expiration: "December 2025",
+		o_expiration: "December 2025",
 		color: APPROVED_COLOR,
 		renew_at:
 			'Renew registrations at <a href="https://nda.nebraska.gov/online/ffal.html" target= "_blank"> Online Renewal</a> with ID #: 19181',
@@ -145,8 +145,8 @@ const statesRegData = [
 		a_status: APPROVED,
 		o_status: APPROVED,
 		notes: "",
-		a_expiration: "Paid for Renewal on 11-6-24",
-		o_expiration: "Paid for Renewal on 11-6-24",
+		a_expiration: "December 2025",
+		o_expiration: "December 2025",
 		color: APPROVED_COLOR,
 		renew_at:
 			'Renew registrations at <a href="https://webapp.ag.utah.gov/productRegistration/registrant.jsp" target= "_blank">Utah Department of Agriculture and Food Online</a> with CUSTOMER No. 12245829 And PIN 221030',
@@ -393,16 +393,18 @@ const statesRegData = [
 		license_statues: APPROVED,
 		a_status: APPROVED,
 		o_status: APPROVED,
-		notes: "",
-		a_expiration: "Contact For Acct Setup",
-		o_expiration: "Contact For Acct Setup",
+		notes: "USAPLANTS ID:  001DV8 PIN:  32796",
+		a_expiration: "December 2025",
+		o_expiration: "December 2025",
 		color: APPROVED_COLOR,
+		renew_at:
+			'Renew registrations at <a href="https://usaplants.vermont.gov/usaplants/SecurityLogin.aspx" target= "_blank">Online</a>',
 	},
 	{
 		id: 34,
 		state: "Wisconsin",
 		license_statues:
-			"Requires Active and Inactive ingredient percentages totaling 100% PLUS method of analysis for each guaranteed active ingredient in the soil or plant additive.",
+			"Requires Active and Inactive ingrsedient percentages totaling 100% PLUS method of analysis for each guaranteed active ingredient in the soil or plant additive.",
 		a_status:
 			"OPTION: https://www.verdantregulatory.com/soil-amendment-registration-services.",
 		o_status: "",
