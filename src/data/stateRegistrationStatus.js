@@ -19,6 +19,9 @@ const statesRegData = [
 		a_expiration: NOREGISTRATIONREQUIRED,
 		o_expiration: NOREGISTRATIONREQUIRED,
 		color: APPROVED_COLOR,
+		point_of_contact_name: "?",
+		point_of_contact_phone: "?",
+		point_of_contact_email: "?",
 	},
 	{
 		id: 2,
@@ -31,6 +34,9 @@ const statesRegData = [
 		a_expiration: "June 2025",
 		o_expiration: "June 2025",
 		color: APPROVED_COLOR,
+		point_of_contact_name: "Angelica Quezada",
+		point_of_contact_phone: "602-542-3578",
+		point_of_contact_email: "aquezada@azda.gov",
 	},
 	{
 		id: 3,
@@ -43,6 +49,9 @@ const statesRegData = [
 		a_expiration: "January 2025",
 		o_expiration: "January 2025",
 		color: APPROVED_COLOR,
+		point_of_contact_name: "Megan Winter",
+		point_of_contact_phone: "303-869-9103",
+		point_of_contact_email: "megan.winter@state.co.us",
 	},
 	{
 		id: 4,
@@ -57,6 +66,9 @@ const statesRegData = [
 		color: APPROVED_COLOR,
 		renew_at:
 			'Renew registrations at <a href="https://www.kellysolutions.com/erenewals/login.aspx?ReturnUrl=/erenewals/soil/default.aspx" target= "_blank"> Wyoming Renewal</a>',
+		point_of_contact_name: "Wyoming Department of Agriculture",
+		point_of_contact_phone: "307-777-6573",
+		point_of_contact_email: "agri.productreg@wyo.gov",
 	},
 	{
 		id: 5,
@@ -71,6 +83,9 @@ const statesRegData = [
 		color: APPROVED_COLOR,
 		renew_at:
 			'Renew registrations at <a href="https://nda.nebraska.gov/online/ffal.html" target= "_blank"> Online Renewal</a> with ID #: 19181',
+		point_of_contact_name: "Libby Smith",
+		point_of_contact_phone: "402-471-6882",
+		point_of_contact_email: "elizabeth.smith@nebraska.gov",
 	},
 	{
 		id: 6,
@@ -88,14 +103,16 @@ const statesRegData = [
 	{
 		id: 7,
 		state: "Florida",
-		license_statues:
-			"Must update product labels.  Emailed revised label on 9-25-24.",
-		a_status: "Must update product labels. Emailed revised label on 9-25-24.",
-		o_status: "Must update product labels. Emailed revised label on 9-25-24.",
+		license_statues: "Paul said he is taking care of it on 12-9-24",
+		a_status: "Paul said he is taking care of it on 12-9-24",
+		o_status: "Paul said he is taking care of it on 12-9-24",
 		notes: "",
 		a_expiration: "June 2025",
 		o_expiration: "June 2025",
 		color: PENDING_COLOR,
+		point_of_contact_name: "Brian Thompson",
+		point_of_contact_phone: "850 - 617 - 7861",
+		point_of_contact_email: "Brian.Thompson@FDACS.gov",
 	},
 	{
 		id: 8,
@@ -105,12 +122,15 @@ const statesRegData = [
 		o_status: APPROVED,
 		notes:
 			"Just need soil amendment registration. Registered as soil amendment on 12-3-24",
-		is_soil_amendment: "?",
+		is_soil_amendment: "Yes",
 		a_expiration: "June 2025",
 		o_expiration: "June 2025",
 		color: APPROVED_COLOR,
 		renew_at:
 			'Renew registrations at <a href="https://agnet.mdac.ms.gov/fflsp/" target= "_blank"> Mississippi Renewal</a>',
+		point_of_contact_name: "Buddy Brannon",
+		point_of_contact_phone: "662-325-7763",
+		point_of_contact_email: "buddyb@mdac.ms.gov",
 	},
 	{
 		id: 9,
@@ -124,6 +144,9 @@ const statesRegData = [
 		color: APPROVED_COLOR,
 		renew_at:
 			'Renew registrations at <a href="https://mtplants.mt.gov/OktaSSOLogin.aspx" target= "_blank"> Montana Renewal</a>  \nMontana plants id: 002XT9 Montana Pin Id: 47800.',
+		point_of_contact_name: "?",
+		point_of_contact_phone: "?",
+		point_of_contact_email: "?",
 	},
 	{
 		id: 10,
@@ -136,6 +159,9 @@ const statesRegData = [
 		a_expiration: NOREGISTRATIONREQUIRED,
 		o_expiration: NOREGISTRATIONREQUIRED,
 		color: APPROVED_COLOR,
+		point_of_contact_name: "?",
+		point_of_contact_phone: "701-328-1500",
+		point_of_contact_email: "?",
 	},
 	{
 		id: 11,
@@ -147,6 +173,9 @@ const statesRegData = [
 		a_expiration: "December 2025",
 		o_expiration: "December 2025",
 		color: APPROVED_COLOR,
+		point_of_contact_name: "Abby Bauer",
+		point_of_contact_phone: "575-646-2765",
+		point_of_contact_email: "abauer@nmda.nmsu.edu",
 	},
 	{
 		id: 12,
@@ -161,6 +190,9 @@ const statesRegData = [
 		color: APPROVED_COLOR,
 		renew_at:
 			'Renew registrations at <a href="https://webapp.ag.utah.gov/productRegistration/registrant.jsp" target= "_blank">Utah Department of Agriculture and Food Online</a> with CUSTOMER No. 12245829 And PIN 221030',
+		point_of_contact_name: "Summer Hobbs",
+		point_of_contact_phone: "385-499-0424",
+		point_of_contact_email: "udaf-fertilizer@utah.gov",
 	},
 	{
 		id: 13,
@@ -175,6 +207,9 @@ const statesRegData = [
 		color: APPROVED_COLOR,
 		renew_at:
 			'Renew registrations at <a href="https://www.isda.idaho.gov/ffs/" target= "_blank">Idaho Department of Agriculture</a>',
+		point_of_contact_name: "Bailey Brunmeier",
+		point_of_contact_phone: "208-332-8625",
+		point_of_contact_email: "bailey.brunmeier@isda.idaho.gov",
 	},
 	{
 		id: 14,
@@ -187,6 +222,9 @@ const statesRegData = [
 		a_expiration: NOREGISTRATIONREQUIRED,
 		o_expiration: NOREGISTRATIONREQUIRED,
 		color: APPROVED_COLOR,
+		point_of_contact_name: "Don McLain",
+		point_of_contact_phone: "360-974-9753",
+		point_of_contact_email: "dmclain@agr.wa.gov",
 	},
 	{
 		id: 15,
@@ -199,6 +237,9 @@ const statesRegData = [
 		a_expiration: "December 2025",
 		o_expiration: "December 2025",
 		color: APPROVED_COLOR,
+		point_of_contact_name: "Lisa Mermoud",
+		point_of_contact_phone: "765-494-1548",
+		point_of_contact_email: "lmermoud@purdue.edu",
 	},
 	{
 		id: 16,
@@ -211,6 +252,9 @@ const statesRegData = [
 		a_expiration: "June 2025",
 		o_expiration: "June 2025",
 		color: APPROVED_COLOR,
+		point_of_contact_name: "Mike Stage",
+		point_of_contact_phone: "501-219-6338",
+		point_of_contact_email: "mike.stage@agriculture.arkansas.gov",
 	},
 	{
 		id: 17,
@@ -226,6 +270,9 @@ const statesRegData = [
 		color: APPROVED_COLOR,
 		renew_at:
 			'Renew registrations at <a href="https://www.kellysolutions.com/erenewals/login.aspx?ReturnUrl=/erenewals/Fertilizer/default.aspx" target= "_blank">Online</a>',
+		point_of_contact_name: "Leanne Garrett",
+		point_of_contact_phone: "302-698-4524",
+		point_of_contact_email: "Leanne.Garrett@delaware.gov",
 	},
 	{
 		id: 18,
@@ -240,6 +287,9 @@ const statesRegData = [
 		color: APPROVED_COLOR,
 		renew_at:
 			'Renew registrations at <a href="https://iowadeptag.my.site.com/s/login/?amp=&ec=302" target= "_blank">Online at Iowa Department of Agriculture.</a>',
+		point_of_contact_name: "?",
+		point_of_contact_phone: "?",
+		point_of_contact_email: "feed_and_fert@iowaagriculture.gov",
 	},
 	{
 		id: 19,
@@ -264,6 +314,9 @@ const statesRegData = [
 		a_expiration: NOREGISTRATIONREQUIRED,
 		o_expiration: NOREGISTRATIONREQUIRED,
 		color: APPROVED_COLOR,
+		point_of_contact_name: "Stephen McMurry",
+		point_of_contact_phone: "859-257-2785",
+		point_of_contact_email: "smcmurry@email.uky.edu",
 	},
 	{
 		id: 21,
@@ -287,7 +340,9 @@ const statesRegData = [
 		a_expiration: "December 2024",
 		o_expiration: "December 2024",
 		color: APPROVED_COLOR,
-		point_of_contact: "Department of Quality Assurance, (207) 287-3841",
+		point_of_contact_name: "Department of Quality Assurance",
+		point_of_contact_phone: "207-287-3841",
+		point_of_contact_email: "?",
 	},
 	{
 		id: 23,
@@ -300,7 +355,9 @@ const statesRegData = [
 		a_expiration: "Check Processed by Michigan on 11-28-24",
 		o_expiration: "Check Processed by Michigan on 11-28-24",
 		color: APPROVED_COLOR,
-		point_of_contact: "licensing tech Lorli Curry - curryl9@michigan.gov",
+		point_of_contact_name: "Lorli Curry",
+		point_of_contact_phone: "?",
+		point_of_contact_email: "curryl9@michigan.gov",
 	},
 	{
 		id: 24,
@@ -315,6 +372,9 @@ const statesRegData = [
 		a_expiration: "December 2025",
 		o_expiration: "December 2025",
 		color: APPROVED_COLOR,
+		point_of_contact_name: "Lorinda Balfanz",
+		point_of_contact_phone: "651-201-6092",
+		point_of_contact_email: "lorinda.balfanz@state.mn.usv",
 	},
 	{
 		id: 25,
@@ -327,6 +387,9 @@ const statesRegData = [
 		a_expiration: NOREGISTRATIONREQUIRED,
 		o_expiration: NOREGISTRATIONREQUIRED,
 		color: APPROVED_COLOR,
+		point_of_contact_name: "Mark Murphy",
+		point_of_contact_phone: "573-636-6131",
+		point_of_contact_email: "mofcb@mofcb.com",
 	},
 	{
 		id: 26,
@@ -405,6 +468,9 @@ const statesRegData = [
 		is_soil_amendment: "?",
 		a_expiration: "",
 		o_expiration: "",
+		point_of_contact_name: "RANE’ SEWELL",
+		point_of_contact_phone: "615-837-5513",
+		point_of_contact_email: "rane.j.sewell@tn.gov",
 		color: PENDING_COLOR,
 	},
 	{
@@ -418,6 +484,9 @@ const statesRegData = [
 		is_soil_amendment: "Yes",
 		a_expiration: "June 2025",
 		o_expiration: "June 2025",
+		point_of_contact_name: "?",
+		point_of_contact_phone: "?",
+		point_of_contact_email: "?",
 		color: APPROVED_COLOR,
 	},
 	{
@@ -431,6 +500,9 @@ const statesRegData = [
 		a_expiration: "December 2025",
 		o_expiration: "December 2025",
 		color: APPROVED_COLOR,
+		point_of_contact_name: "?",
+		point_of_contact_phone: "?",
+		point_of_contact_email: "?",
 		renew_at:
 			'Renew registrations at <a href="https://usaplants.vermont.gov/usaplants/SecurityLogin.aspx" target= "_blank">Online</a>',
 	},
@@ -458,6 +530,9 @@ const statesRegData = [
 		a_expiration: "June 2025",
 		o_expiration: "June 2025",
 		color: APPROVED_COLOR,
+		point_of_contact_name: "Delaney Welling",
+		point_of_contact_phone: "304-558-2227",
+		point_of_contact_email: "delaneyparsons@wvda.us",
 	},
 	{
 		id: 36,
@@ -470,6 +545,10 @@ const statesRegData = [
 		a_expiration: "June 2025",
 		o_expiration: "June 2025",
 		color: APPROVED_COLOR,
+		point_of_contact_name:
+			"GDA Licensing Division Georgia Department of Agriculture",
+		point_of_contact_phone: "404-586-1411",
+		point_of_contact_email: "gdalicensing@agr.georgia.gov",
 		how_to_submit:
 			'Renew registrations at <a href="https://www.kellysolutions.com/erenewals/login.aspx?ReturnUrl=/erenewals/Soil/default_newreg.aspx" target= "_blank">Georgia DOA</a>',
 	},
@@ -484,6 +563,9 @@ const statesRegData = [
 		a_expiration: "June 2025",
 		o_expiration: "June 2025",
 		color: APPROVED_COLOR,
+		point_of_contact_name: "?",
+		point_of_contact_phone: "?",
+		point_of_contact_email: "?",
 	},
 	{
 		id: 38,
@@ -496,6 +578,10 @@ const statesRegData = [
 		a_expiration: "June 2026",
 		o_expiration: "June 2026",
 		color: APPROVED_COLOR,
+		point_of_contact_name:
+			"GDA Licensing Division Georgia Department of Agriculture",
+		point_of_contact_phone: "701-328-1500",
+		point_of_contact_email: "reg@nd.com",
 	},
 ];
 
