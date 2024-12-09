@@ -287,6 +287,7 @@ const statesRegData = [
 		a_expiration: "December 2024",
 		o_expiration: "December 2024",
 		color: APPROVED_COLOR,
+		point_of_contact: "Department of Quality Assurance, (207) 287-3841",
 	},
 	{
 		id: 23,
@@ -294,11 +295,12 @@ const statesRegData = [
 		license_statues: APPROVED,
 		a_status: APPROVED,
 		o_status: APPROVED,
-		is_soil_amendment: "?",
+		is_soil_amendment: "Yes",
 		notes: "",
-		a_expiration: "Sarah sent a check on 11-12-24",
-		o_expiration: "Sarah sent a check on 11-12-24",
+		a_expiration: "Check Processed by Michigan on 11-28-24",
+		o_expiration: "Check Processed by Michigan on 11-28-24",
 		color: APPROVED_COLOR,
+		point_of_contact: "licensing tech Lorli Curry - curryl9@michigan.gov",
 	},
 	{
 		id: 24,
