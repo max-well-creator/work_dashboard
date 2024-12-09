@@ -29,7 +29,7 @@ const statesRegData = [
 		notes: "",
 		is_soil_amendment: "Yes",
 		a_expiration: "June 2025",
-		o_expiration: "",
+		o_expiration: "June 2025",
 		color: APPROVED_COLOR,
 	},
 	{
@@ -94,7 +94,7 @@ const statesRegData = [
 		o_status: "Must update product labels. Emailed revised label on 9-25-24.",
 		notes: "",
 		a_expiration: "June 2025",
-		o_expiration: "",
+		o_expiration: "June 2025",
 		color: PENDING_COLOR,
 	},
 	{
@@ -105,8 +105,9 @@ const statesRegData = [
 		o_status: APPROVED,
 		notes:
 			"Just need soil amendment registration. Registered as soil amendment on 12-3-24",
+		is_soil_amendment: "?",
 		a_expiration: "June 2025",
-		o_expiration: "",
+		o_expiration: "June 2025",
 		color: APPROVED_COLOR,
 		renew_at:
 			'Renew registrations at <a href="https://agnet.mdac.ms.gov/fflsp/" target= "_blank"> Mississippi Renewal</a>',
@@ -181,6 +182,7 @@ const statesRegData = [
 		license_statues: APPROVED,
 		a_status: NOREGISTRATIONREQUIRED,
 		o_status: NOREGISTRATIONREQUIRED,
+		is_soil_amendment: "Yes",
 		notes: "",
 		a_expiration: NOREGISTRATIONREQUIRED,
 		o_expiration: NOREGISTRATIONREQUIRED,
@@ -257,6 +259,7 @@ const statesRegData = [
 		license_statues: APPROVED,
 		a_status: NOREGISTRATIONREQUIRED,
 		o_status: NOREGISTRATIONREQUIRED,
+		is_soil_amendment: "Yes",
 		notes: "",
 		a_expiration: NOREGISTRATIONREQUIRED,
 		o_expiration: NOREGISTRATIONREQUIRED,
@@ -291,6 +294,7 @@ const statesRegData = [
 		license_statues: APPROVED,
 		a_status: APPROVED,
 		o_status: APPROVED,
+		is_soil_amendment: "?",
 		notes: "",
 		a_expiration: "Sarah sent a check on 11-12-24",
 		o_expiration: "Sarah sent a check on 11-12-24",
@@ -316,6 +320,7 @@ const statesRegData = [
 		license_statues: APPROVED,
 		a_status: NOREGISTRATIONREQUIRED,
 		o_status: NOREGISTRATIONREQUIRED,
+		is_soil_amendment: "Yes",
 		notes: "",
 		a_expiration: NOREGISTRATIONREQUIRED,
 		o_expiration: NOREGISTRATIONREQUIRED,
@@ -395,6 +400,7 @@ const statesRegData = [
 		o_status:
 			"No Individual Product Registration need just register the company. Per rane.j.sewell@tn.gov - filled out application and emailed 9-25-24",
 		notes: "",
+		is_soil_amendment: "?",
 		a_expiration: "",
 		o_expiration: "",
 		color: PENDING_COLOR,
@@ -409,7 +415,7 @@ const statesRegData = [
 			"Need a fertilizer license and individual product registration renewals.",
 		is_soil_amendment: "Yes",
 		a_expiration: "June 2025",
-		o_expiration: "",
+		o_expiration: "June 2025",
 		color: APPROVED_COLOR,
 	},
 	{
@@ -460,7 +466,7 @@ const statesRegData = [
 		notes: "",
 		is_soil_amendment: "Need to register A and O",
 		a_expiration: "June 2025",
-		o_expiration: "",
+		o_expiration: "June 2025",
 		color: APPROVED_COLOR,
 		how_to_submit:
 			'Renew registrations at <a href="https://www.kellysolutions.com/erenewals/login.aspx?ReturnUrl=/erenewals/Soil/default_newreg.aspx" target= "_blank">Georgia DOA</a>',
@@ -483,9 +489,10 @@ const statesRegData = [
 		license_statues: APPROVED,
 		a_status: APPROVED,
 		o_status: APPROVED,
+		is_soil_amendment: "Yes",
 		notes: "Fertilizer and Soil Amendment are lumped together",
 		a_expiration: "June 2026",
-		o_expiration: "",
+		o_expiration: "June 2026",
 		color: APPROVED_COLOR,
 	},
 ];
