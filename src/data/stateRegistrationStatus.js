@@ -236,7 +236,7 @@ const statesRegData = [
 		notes: "",
 		is_soil_amendment: "Yes",
 		a_expiration: "June 2026",
-		o_expiration: "",
+		o_expiration: "June 2026",
 		color: APPROVED_COLOR,
 		renew_at:
 			'Renew registrations at <a href="https://iowadeptag.my.site.com/s/login/?amp=&ec=302" target= "_blank">Online at Iowa Department of Agriculture.</a>',
@@ -285,7 +285,7 @@ const statesRegData = [
 		notes: "",
 		is_soil_amendment: "Yes",
 		a_expiration: "December 2024",
-		o_expiration: "",
+		o_expiration: "December 2024",
 		color: APPROVED_COLOR,
 	},
 	{
