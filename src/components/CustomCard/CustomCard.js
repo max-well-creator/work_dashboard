@@ -1,32 +1,13 @@
 import React from "react";
-import {
-	Card,
-	CardBody,
-	CardHeader,
-	CardText,
-	Button,
-	CardTitle,
-} from "reactstrap";
+import { Card, Button } from "reactstrap";
 
 import styles from "./CustomCard.module.scss";
 
 export default function CustomCard({ row, dataHeaders, background }) {
-	const {
-		id,
-		state,
-		license_statues,
-		a_status,
-		o_status,
-		a_expiration,
-		o_expiration,
-	} = row;
-	const {
-		STATUS_HEADING,
-		ASTATUS_HEADING,
-		OSTATUS_HEADING,
-		AEXPIRATION_HEADING,
-		OEXPIRATION_HEADING,
-	} = dataHeaders;
+	const { id, state, license_statues, product_status, product_expiration } =
+		row;
+	const { STATUS_HEADING, PORDUCT_STATUS_HEADING, EXPIRATION_HEADING } =
+		dataHeaders;
 
 	// Headings and data array
 	const rowData = [
@@ -36,38 +17,28 @@ export default function CustomCard({ row, dataHeaders, background }) {
 		},
 		,
 		{
-			title: ASTATUS_HEADING,
-			info: a_status,
+			title: PORDUCT_STATUS_HEADING,
+			info: product_status,
 		},
 		{
-			title: OSTATUS_HEADING,
-			info: o_status,
-		},
-		{
-			title: AEXPIRATION_HEADING,
-			info: a_expiration,
-		},
-		{
-			title: OEXPIRATION_HEADING,
-			info: o_expiration,
+			title: EXPIRATION_HEADING,
+			info: product_expiration,
 		},
 	];
 
 	// You can conditionally style the card based on the status
-
 	return (
-		<Card className={styles.card} style={{ backgroundColor: background }}>
-			<CardHeader>{state}</CardHeader>
-			<CardBody>
+		<Card className={`${styles.card} ${background}`}>
+			<h2>{state}</h2>
+			<div>
 				{rowData.map((info, index) => (
-					<>
-						<CardTitle>{info.title}</CardTitle>
-						<CardText key={index}>{info.info}</CardText>
-					</>
+					<div key={index}>
+						<p className={styles.title}>{info.title}</p>
+						<p className={styles.info}>{info.info}</p>
+					</div>
 				))}
-
 				<Button>More Info</Button>
-			</CardBody>
+			</div>
 		</Card>
 	);
 }
