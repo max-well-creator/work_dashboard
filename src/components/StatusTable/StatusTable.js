@@ -23,8 +23,21 @@ const StatusTable = () => {
 		return "";
 	};
 
+	const approvedStates = statesRegData.filter(
+		(row) => row.color === APPROVED_COLOR
+	);
+	const pendingStates = statesRegData.filter(
+		(row) => row.color === PENDING_COLOR
+	);
+	const rejectedStates = statesRegData.filter(
+		(row) => row.color === REJECTED_COLOR
+	);
 	return (
 		<div className={styles.tableContainer}>
+			<p>Showing {statesRegData.length}</p>
+			<p>{approvedStates.length} approved</p>
+			<p>{pendingStates.length} pending</p>
+			<p>{rejectedStates.length} rejected</p>
 			<div className={styles.statusTable}>
 				{statesRegData.map((row) => {
 					const rowColorClass = getRowColorClass(row.color);

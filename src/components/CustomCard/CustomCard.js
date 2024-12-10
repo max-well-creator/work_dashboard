@@ -29,7 +29,7 @@ export default function CustomCard({ row, dataHeaders, background }) {
 	// You can conditionally style the card based on the status
 	return (
 		<Card className={`${styles.card} ${background}`}>
-			<h2>{state}</h2>
+			<h3>{state}</h3>
 			<div>
 				{rowData.map((info, index) => (
 					<div key={index}>
