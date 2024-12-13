@@ -33,9 +33,7 @@ export default function Home() {
 				<div styles={styles.cRMLinks}>
 					<WorkLinks title="CRM" links={CRMTools} />
 				</div>
-				<div styles={styles.reportLinks}>
-					<WorkLinks title="Reports" links={ReportingTools} />
-				</div>
+
 				<div styles={styles.salesLinks}>
 					<WorkLinks title="Sales" links={SalesSites} />
 				</div>

@@ -308,7 +308,7 @@ const statesRegData = [
 		product_status: APPROVED,
 		is_soil_amendment: "Yes",
 		notes: "",
-		product_expiration: "Check Processed by Michigan on 11-28-24",
+		product_expiration: "December 2025",
 		color: APPROVED_COLOR,
 		point_of_contact_name: "Lorli Curry",
 		point_of_contact_phone: "?",

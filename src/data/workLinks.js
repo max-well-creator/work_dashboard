@@ -54,14 +54,6 @@ export const CRMTools = [
 	},
 ];
 
-export const ReportingTools = [
-	{
-		title: "Tonnage Calculator",
-		description: "Tool to automatically calculate AG-USA product tonnage",
-		url: "https://tonnage-cd855155a902.herokuapp.com/",
-	},
-];
-
 export const SalesSites = [
 	{
 		title: "New MaxGoodness",
