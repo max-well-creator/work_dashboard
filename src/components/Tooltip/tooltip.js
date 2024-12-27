@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import styles from "./Tooltip.module.scss"; // Import SCSS Module
+import styles from "./tooltip.module.scss"; // Import SCSS Module
 
 const Tooltip = ({ children, content, position = "bottom" }) => {
 	const [isHovered, setIsHovered] = useState(false);
