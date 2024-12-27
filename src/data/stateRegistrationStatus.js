@@ -81,12 +81,7 @@ const statesRegData = [
 		id: 6,
 		state: "Kansas",
 		license_statues:
-			"Requires Active and Inactive ingredient percentages totaling 100%.",
-		product_status:
-			"OPTION: https://www.verdantregulatory.com/soil-amendment-registration-services.",
-		notes: "",
-		a_expiration: "",
-		o_expiration: "",
+			"Requires Active and Inactive ingredient percentages totaling 100%. OPTION: https://www.verdantregulatory.com/soil-amendment-registration-services.",
 		color: REJECTED_COLOR,
 	},
 	{
@@ -135,14 +130,15 @@ const statesRegData = [
 		id: 10,
 		state: "Nevada",
 		license_statues: APPROVED,
-		product_status: NOREGISTRATIONREQUIRED,
-		notes: "",
+		product_status: "?",
+		notes:
+			"Emailed nvchem@agri.nv.gov December 27 to see if we need to renew products by December 31",
 		is_soil_amendment: "Yes",
-		product_expiration: NOREGISTRATIONREQUIRED,
+		product_expiration: "?",
 		color: APPROVED_COLOR,
-		point_of_contact_name: "?",
-		point_of_contact_phone: "701-328-1500",
-		point_of_contact_email: "?",
+		point_of_contact_name: "Allison L. Kosturos",
+		point_of_contact_phone: "775-353-3635",
+		point_of_contact_email: "nvchem@agri.nv.gov",
 	},
 	{
 		id: 11,
@@ -217,7 +213,8 @@ const statesRegData = [
 		state: `Arkansas \n Lic Reg#: 292`,
 		license_statues: APPROVED,
 		product_status: APPROVED,
-		notes: "",
+		notes:
+			"If under 1 ton send a 0 ton report. Starting September 2024 keep a record of real tonnage and amount owed and then pay a lump sum in June per Mike Stage call on 12-13-24",
 		is_soil_amendment: "Yes",
 		product_expiration: "June 2025",
 		color: APPROVED_COLOR,
@@ -259,11 +256,8 @@ const statesRegData = [
 	{
 		id: 19,
 		state: "Illinois",
-		license_statues: "Analytical procedure(s) required.",
-		product_status:
-			"OPTION: https://www.verdantregulatory.com/soil-amendment-registration-services.",
-		notes: "",
-		product_expiration: "",
+		license_statues:
+			"Analytical procedure(s) required. OPTION: https://www.verdantregulatory.com/soil-amendment-registration-services.",
 		color: REJECTED_COLOR,
 	},
 	{
@@ -283,9 +277,6 @@ const statesRegData = [
 		id: 21,
 		state: "Maryland",
 		license_statues: "Paul chose not to sell as of April 17, 2024.",
-		product_status: "Paul chose not to sell as of April 17, 2024.",
-		notes: "",
-		product_expiration: "",
 		color: REJECTED_COLOR,
 	},
 	{
@@ -293,13 +284,16 @@ const statesRegData = [
 		state: "Maine",
 		license_statues: APPROVED,
 		product_status: APPROVED,
-		notes: "Emailed benjamin.metcalf@maine.gov on 12-13-24",
+		notes: "Emailed Sarah renewal form to 12-17-24 to send to Maine",
 		is_soil_amendment: "Yes",
 		product_expiration: "December 2024",
 		color: APPROVED_COLOR,
-		point_of_contact_name: "Department of Quality Assurance",
-		point_of_contact_phone: "207-287-3841",
-		point_of_contact_email: "benjamin.metcalf@maine.gov",
+		point_of_contact_name:
+			"Michelle Newbegin | Process Systems Analyst Cordinator",
+		point_of_contact_phone: "207-287-4516",
+		point_of_contact_email: "michelle.newbegin@maine.gov",
+		how_to_submit:
+			"Email Maine Department of Agriculture, Conservation & Forestry Division of Quality Assurance and Regulations 28 State House Station Augusta, Maine 04333-0028",
 	},
 	{
 		id: 23,
@@ -322,12 +316,14 @@ const statesRegData = [
 		notes: "Do not update fertilizer license",
 		product_status: APPROVED,
 		notes:
-			"Beginning January 1, 2026, a fertilizer, soil and plant amendment, or agricultural liming product manufacturer must annually provide a statement that a product contains no intentionally added PFAS.Beginning January 1, 2032, the commissioner may not register any fertilizers, soil and plant amendments, and agricultural liming materials product that contains intentionally added PFAS unless the commissioner determines that the use of PFAS is a currently unavoidable use. ",
+			"Beginning January 1, 2026, a fertilizer, soil and plant amendment, or agricultural liming product manufacturer must annually provide a statement that a product contains no intentionally added PFAS.Beginning January 1, 2032, the commissioner may not register any fertilizers, soil and plant amendments, and agricultural liming materials product that contains intentionally added PFAS unless the commissioner determines that the use of PFAS is a currently unavoidable use. Contact Minnesota to make sure that the online system is accessable with the soild ammendment licensing number right now it is under the fertilizer number as of December 20, 2024 ",
 		product_expiration: "December 2025",
 		color: APPROVED_COLOR,
 		point_of_contact_name: "Lorinda Balfanz",
 		point_of_contact_phone: "651-201-6092",
 		point_of_contact_email: "lorinda.balfanz@state.mn.usv",
+		how_to_submit:
+			"Pay for licensing renewal <a href='https://www2.mda.state.mn.us/webapp/erenewal/login.jsp'>Online</a>",
 	},
 	{
 		id: 25,
@@ -346,11 +342,7 @@ const statesRegData = [
 		id: 26,
 		state: "New York",
 		license_statues:
-			"Requires Active and Inactive ingredient percentages totaling 100%.",
-		product_status:
-			"OPTION: https://www.verdantregulatory.com/soil-amendment-registration-services.",
-		notes: "",
-		product_expiration: "",
+			"Requires Active and Inactive ingredient percentages totaling 100%. OPTION: https://www.verdantregulatory.com/soil-amendment-registration-services.",
 		color: REJECTED_COLOR,
 	},
 	{
@@ -359,48 +351,33 @@ const statesRegData = [
 		license_statues:
 			"Requires Active and Inactive ingredient percentages totaling 100%.",
 		product_status: "See documentation for details.",
-		notes: "",
-		product_expiration: "",
 		color: REJECTED_COLOR,
 	},
 	{
 		id: 28,
 		state: "Ohio",
 		license_statues:
-			"Requires Active and Inactive ingredient percentages totaling 100%, plus micro-orgs by milliliter.",
-		product_status:
-			"OPTION: https://www.verdantregulatory.com/soil-amendment-registration-services.",
-		notes: "",
-		product_expiration: "",
+			"Requires Active and Inactive ingredient percentages totaling 100%, plus micro-orgs by milliliter.  OPTION: https://www.verdantregulatory.com/soil-amendment-registration-services.",
 		color: REJECTED_COLOR,
 	},
 	{
 		id: 29,
 		state: "Oklahoma",
 		license_statues:
-			"Requires Active and Inactive ingredient percentages totaling 100%, plus micro-orgs by milliliter plus cert of analysis of Micro-Orgs.",
-		product_status:
-			"OPTION: https://www.verdantregulatory.com/soil-amendment-registration-services.",
-		notes: "",
-		product_expiration: "",
+			"Requires Active and Inactive ingredient percentages totaling 100%, plus micro-orgs by milliliter plus cert of analysis of Micro-Orgs. OPTION: https://www.verdantregulatory.com/soil-amendment-registration-services.",
 		color: REJECTED_COLOR,
 	},
 	{
 		id: 30,
 		state: "Oregon",
 		license_statues:
-			"Requires Heavy Metal report dated within the previous 18 mos.",
-		product_status:
-			"OPTION: https://www.verdantregulatory.com/soil-amendment-registration-services.",
-		notes: "",
-		product_expiration: "",
+			"Requires Heavy Metal report dated within the previous 18 mos. OPTION: https://www.verdantregulatory.com/soil-amendment-registration-services.",
+
 		color: REJECTED_COLOR,
 	},
 	{
 		id: 31,
 		state: "Tennessee",
-		license_statues:
-			"No Individual Product Registration need just register the company.",
 		product_status:
 			"No Individual Product Registration need just register the company. Per rane.j.sewell@tn.gov - filled out application and emailed 9-25-24",
 		notes: "",
@@ -444,11 +421,8 @@ const statesRegData = [
 		id: 34,
 		state: "Wisconsin",
 		license_statues:
-			"Requires Active and Inactive ingrsedient percentages totaling 100% PLUS method of analysis for each guaranteed active ingredient in the soil or plant additive.",
-		product_status:
-			"OPTION: https://www.verdantregulatory.com/soil-amendment-registration-services.",
-		notes: "",
-		product_expiration: "",
+			"Requires Active and Inactive ingrsedient percentages totaling 100% PLUS method of analysis for each guaranteed active ingredient in the soil or plant additive. OPTION: https://www.verdantregulatory.com/soil-amendment-registration-services.",
+
 		color: REJECTED_COLOR,
 	},
 	{

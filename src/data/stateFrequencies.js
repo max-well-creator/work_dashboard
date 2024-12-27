@@ -71,7 +71,9 @@ export const stateFrequencies = [
 		state: "Utah",
 		frequency: "Yearly",
 		how_to_submit:
-			'<a href="https://agnet.mdac.ms.gov/fflsp/account/login" target="_blank" rel="noopener noreferrer">https://agnet.mdac.ms.gov</a>. Mail a check to: SOB South Building, Floor 2 Taylorsville, UT 84129-2128',
+			'<a href="https://webapp.ag.utah.gov/productRegistration/registrant.jsp" target="_blank" rel="noopener noreferrer">https://agnet.mdac.ms.gov</a>. Mail a check to: Utah Department of Agriculture and Food; Plant Industry Division4315 South 2700 West TSOB South Building, Floor 2 Taylorsville, UT 84129-2128',
+		notes:
+			"Cover sheet for payment for for AG-USA is in dropbox under Utah Tonnage Reports",
 	},
 	{
 		state: "North Dakota",
