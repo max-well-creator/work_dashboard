@@ -32,6 +32,16 @@ export const stateFrequencies = [
 			'<a href="https://www.kellysolutions.com/ga/fert/tonnage/login.asp" target="_blank" rel="noopener noreferrer">https://www.kellysolutions.com</a>',
 	},
 	{
+		state: "Iowa",
+		frequency: "Twice a year",
+		requires_county_in_tonnage: "No",
+		how_to_submit:
+			'Renew tonnage at <a href="https://iowadeptag.my.site.com/s/login/?amp=&ec=302" target= "_blank">Online at Iowa Department of Agriculture.</a>',
+		point_of_contact_name: "Alan Keller",
+		point_of_contact_phone: "515-281-8597",
+		point_of_contact_email: "?",
+	},
+	{
 		state: "Indiana",
 		frequency: "Twice a year",
 		how_to_submit:
@@ -62,6 +72,15 @@ export const stateFrequencies = [
 			"MINNESOTA DEPARTMENT OF AGRICULTURE \n Attn: Cashier \n 625 Robert Street North Saint Paul, MN 55155-2538.",
 	},
 	{
+		state: "Vermont",
+		frequency: "Yearly",
+		how_to_submit:
+			'Email to <a href="mailto:agr.feedseedfert@vermont.gov" target="_blank" rel="noopener noreferrer">mailto:agr.feedseedfert@vermont.gov</a>',
+		point_of_contact_name: "Lisa Fantelli",
+		point_of_contact_phone: "802-828-5050",
+		point_of_contact_email: "Lisa.fantelli@vermont.gov",
+	},
+	{
 		state: "Mississippi",
 		frequency: "Yearly",
 		how_to_submit:
@@ -80,6 +99,9 @@ export const stateFrequencies = [
 		frequency: "Yearly",
 		how_to_submit:
 			'<a href="https://www.kellysolutions.com/nd/FertDistribLicenses/tonnage/login.asp" target="_blank" rel="noopener noreferrer">https://www.kellysolutions.com</a>',
+		point_of_contact_name: "Lukas Wagner",
+		point_of_contact_phone: "701 328-4922",
+		point_of_contact_email: "bkiefel@nd.gov",
 	},
 	{
 		state: "Wisconsin",

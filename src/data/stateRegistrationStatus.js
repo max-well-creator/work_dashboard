@@ -130,11 +130,10 @@ const statesRegData = [
 		id: 10,
 		state: "Nevada",
 		license_statues: APPROVED,
-		product_status: "?",
-		notes:
-			"Emailed nvchem@agri.nv.gov December 27 to see if we need to renew products by December 31",
+		product_status: APPROVED,
+		notes: "Mycorr A renewed. Mycorr O pending",
 		is_soil_amendment: "Yes",
-		product_expiration: "?",
+		product_expiration: "December 2025",
 		color: APPROVED_COLOR,
 		point_of_contact_name: "Allison L. Kosturos",
 		point_of_contact_phone: "775-353-3635",
@@ -174,7 +173,7 @@ const statesRegData = [
 		product_status: APPROVED,
 		notes: "",
 		is_soil_amendment: "Yes",
-		product_expiration: "January 2025",
+		product_expiration: "Payment Pending for January 2025",
 		color: APPROVED_COLOR,
 		renew_at:
 			'Renew registrations at <a href="https://www.isda.idaho.gov/ffs/" target= "_blank">Idaho Department of Agriculture</a>',
