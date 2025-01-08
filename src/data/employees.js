@@ -16,14 +16,6 @@ export const AGContacts = [
 		email: "kaye@ag-usa.net",
 	},
 	{
-		name: "Nikole Kittling",
-		company: "AG-USA, LLC",
-		jobTitle: "HR Representative",
-		businessPhone: "(678) 675-3223",
-		mobilePhone: "",
-		email: "nikole@ag-usa.net",
-	},
-	{
 		name: "Andrew Schneider",
 		company: "AG-USA, LLC",
 		jobTitle: "VP of Manufacturing",
