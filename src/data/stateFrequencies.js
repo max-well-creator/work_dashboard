@@ -4,8 +4,15 @@ export const stateFrequencies = [
 	{
 		state: "Arkansas",
 		frequency: "Monthly",
+		requires_county_in_tonnage: "No",
+		notes:
+			"If under 1 ton send a 0 ton report. Starting September 2024 keep a record of real tonnage and amount owed and then pay a lump sum in June per Mike Stage call on 12-13-24",
 		how_to_submit:
 			'Email zero ton report to <a href="mailto:fertilizer@agriculture.arkansas.gov">fertilizer@agriculture.arkansas.gov</a>. If there is tonnage pay <a href="https://payments.statesolutions.us/?AID=63236C49690A4EF484D709986A07A969 target="_blank" rel="noopener noreferrer"">online</a>',
+		sepetember_2024_tonnage: ".02",
+		october_2024_tonnage: ".01",
+		november_2024_tonnage: ".01",
+		inspection_fee: 0.375,
 	},
 	{
 		state: "New Mexico",
@@ -55,7 +62,7 @@ export const stateFrequencies = [
 	},
 	{
 		state: "New Mexico",
-		frequency: "Twice a year",
+		frequency: "Quarterly",
 		how_to_submit:
 			'<a href="mailto:tonnage@nmda.nmsu.edu">tonnage@nmda.nmsu.edu</a>.',
 	},
@@ -111,7 +118,31 @@ export const stateFrequencies = [
 	},
 	{
 		state: "Florida",
-		frequency: "Monthly, Quarterly, Yearly",
+		frequency: "Monthly, Quarterly",
+		requires_county_in_tonnage_quarterly: "No",
+		requires_county_in_tonnage_monthly: "Yes",
+		how_to_submit:
+			'<a href="https://lims.flaes.org/HomeNew.aspx?ReturnUrl=/" target="_blank" rel="noopener noreferrer">https://lims.flaes.org</a>',
+	},
+	{
+		state: "California - SoilMaxx",
+		frequency: "Quaterly",
+		requires_county_in_tonnage_quarterly: "No",
+		how_to_submit:
+			'<a href="https://lims.flaes.org/HomeNew.aspx?ReturnUrl=/" target="_blank" rel="noopener noreferrer">https://lims.flaes.org</a>',
+	},
+	{
+		state: "California - SoilMaxx",
+		frequency: "Semi-Annually",
+		requires_county_in_tonnage: "Yes",
+		how_to_submit:
+			'<a href="https://lims.flaes.org/HomeNew.aspx?ReturnUrl=/" target="_blank" rel="noopener noreferrer">https://lims.flaes.org</a>',
+	},
+	{
+		state: "California - GroPal",
+		notes: "Always list no sales",
+		frequency: "Quarterly",
+		requires_county_in_tonnage_quarterly: "No",
 		how_to_submit:
 			'<a href="https://lims.flaes.org/HomeNew.aspx?ReturnUrl=/" target="_blank" rel="noopener noreferrer">https://lims.flaes.org</a>',
 	},

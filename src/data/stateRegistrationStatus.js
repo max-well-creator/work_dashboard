@@ -41,8 +41,10 @@ const statesRegData = [
 		product_status: APPROVED,
 		notes: "",
 		is_soil_amendment: "Yes",
-		product_expiration: "January 2025",
+		product_expiration: "January 2026",
 		color: APPROVED_COLOR,
+		renew_at:
+			'Renew registrations at <a href="https://www.ag.state.co.us/eLicense/Logout.aspx?auto=True" target= "_blank"> Colorado Renewal</a>',
 		point_of_contact_name: "Megan Winter",
 		point_of_contact_phone: "303-869-9103",
 		point_of_contact_email: "megan.winter@state.co.us",
@@ -80,8 +82,14 @@ const statesRegData = [
 	{
 		id: 6,
 		state: "Kansas",
+		notes: "",
 		license_statues:
 			"Requires Active and Inactive ingredient percentages totaling 100%. OPTION: https://www.verdantregulatory.com/soil-amendment-registration-services.",
+		product_status: "",
+		product_expiration: "",
+		point_of_contact_name: "",
+		point_of_contact_phone: "",
+		point_of_contact_email: "",
 		color: REJECTED_COLOR,
 	},
 	{
@@ -119,6 +127,7 @@ const statesRegData = [
 		product_status: APPROVED,
 		is_soil_amendment: "Yes",
 		product_expiration: "December 2025",
+		notes: "",
 		color: APPROVED_COLOR,
 		renew_at:
 			'Renew registrations at <a href="https://mtplants.mt.gov/OktaSSOLogin.aspx" target= "_blank"> Montana Renewal</a>  \nMontana plants id: 002XT9 Montana Pin Id: 47800.',
@@ -144,6 +153,7 @@ const statesRegData = [
 		state: "New Mexico",
 		license_statues: APPROVED,
 		product_status: APPROVED,
+		notes: "",
 		is_soil_amendment: "Yes",
 		product_expiration: "December 2025",
 		color: APPROVED_COLOR,
@@ -173,7 +183,8 @@ const statesRegData = [
 		product_status: APPROVED,
 		notes: "",
 		is_soil_amendment: "Yes",
-		product_expiration: "Payment Pending for January 2025",
+		product_expiration:
+			"Payment Pending for January 2025 and print Idaho certificate after payment is processed",
 		color: APPROVED_COLOR,
 		renew_at:
 			'Renew registrations at <a href="https://www.isda.idaho.gov/ffs/" target= "_blank">Idaho Department of Agriculture</a>',
@@ -212,9 +223,8 @@ const statesRegData = [
 		state: `Arkansas \n Lic Reg#: 292`,
 		license_statues: APPROVED,
 		product_status: APPROVED,
-		notes:
-			"If under 1 ton send a 0 ton report. Starting September 2024 keep a record of real tonnage and amount owed and then pay a lump sum in June per Mike Stage call on 12-13-24",
 		is_soil_amendment: "Yes",
+		notes: "",
 		product_expiration: "June 2025",
 		color: APPROVED_COLOR,
 		point_of_contact_name: "Mike Stage",
@@ -255,8 +265,14 @@ const statesRegData = [
 	{
 		id: 19,
 		state: "Illinois",
+		notes: "",
 		license_statues:
 			"Analytical procedure(s) required. OPTION: https://www.verdantregulatory.com/soil-amendment-registration-services.",
+		product_status: "",
+		product_expiration: "",
+		point_of_contact_name: "",
+		point_of_contact_phone: "",
+		point_of_contact_email: "",
 		color: REJECTED_COLOR,
 	},
 	{
@@ -275,7 +291,13 @@ const statesRegData = [
 	{
 		id: 21,
 		state: "Maryland",
+		notes: "",
 		license_statues: "Paul chose not to sell as of April 17, 2024.",
+		product_status: "",
+		product_expiration: "",
+		point_of_contact_name: "",
+		point_of_contact_phone: "",
+		point_of_contact_email: "",
 		color: REJECTED_COLOR,
 	},
 	{
@@ -340,38 +362,66 @@ const statesRegData = [
 	{
 		id: 26,
 		state: "New York",
+		notes: "",
 		license_statues:
 			"Requires Active and Inactive ingredient percentages totaling 100%. OPTION: https://www.verdantregulatory.com/soil-amendment-registration-services.",
+		product_status: "",
+		product_expiration: "",
+		point_of_contact_name: "",
+		point_of_contact_phone: "",
+		point_of_contact_email: "",
 		color: REJECTED_COLOR,
 	},
 	{
 		id: 27,
 		state: "North Carolina",
+		notes: "",
 		license_statues:
 			"Requires Active and Inactive ingredient percentages totaling 100%.",
 		product_status: "See documentation for details.",
+		product_expiration: "",
+		point_of_contact_name: "",
+		point_of_contact_phone: "",
+		point_of_contact_email: "",
 		color: REJECTED_COLOR,
 	},
 	{
 		id: 28,
 		state: "Ohio",
+		notes: "",
 		license_statues:
 			"Requires Active and Inactive ingredient percentages totaling 100%, plus micro-orgs by milliliter.  OPTION: https://www.verdantregulatory.com/soil-amendment-registration-services.",
+		product_status: "",
+		product_expiration: "",
+		point_of_contact_name: "",
+		point_of_contact_phone: "",
+		point_of_contact_email: "",
 		color: REJECTED_COLOR,
 	},
 	{
 		id: 29,
 		state: "Oklahoma",
+		notes: "",
 		license_statues:
 			"Requires Active and Inactive ingredient percentages totaling 100%, plus micro-orgs by milliliter plus cert of analysis of Micro-Orgs. OPTION: https://www.verdantregulatory.com/soil-amendment-registration-services.",
+		product_status: "",
+		product_expiration: "",
+		point_of_contact_name: "",
+		point_of_contact_phone: "",
+		point_of_contact_email: "",
 		color: REJECTED_COLOR,
 	},
 	{
 		id: 30,
 		state: "Oregon",
+		notes: "",
 		license_statues:
 			"Requires Heavy Metal report dated within the previous 18 mos. OPTION: https://www.verdantregulatory.com/soil-amendment-registration-services.",
-
+		product_status: "",
+		product_expiration: "",
+		point_of_contact_name: "",
+		point_of_contact_phone: "",
+		point_of_contact_email: "",
 		color: REJECTED_COLOR,
 	},
 	{
@@ -419,9 +469,14 @@ const statesRegData = [
 	{
 		id: 34,
 		state: "Wisconsin",
+		notes: "",
 		license_statues:
 			"Requires Active and Inactive ingrsedient percentages totaling 100% PLUS method of analysis for each guaranteed active ingredient in the soil or plant additive. OPTION: https://www.verdantregulatory.com/soil-amendment-registration-services.",
-
+		product_status: "",
+		product_expiration: "",
+		point_of_contact_name: "",
+		point_of_contact_phone: "",
+		point_of_contact_email: "",
 		color: REJECTED_COLOR,
 	},
 	{
@@ -474,6 +529,34 @@ const statesRegData = [
 		is_soil_amendment: "Yes",
 		notes: "Fertilizer and Soil Amendment are lumped together",
 		product_expiration: "June 2026",
+		color: APPROVED_COLOR,
+		point_of_contact_name:
+			"GDA Licensing Division Georgia Department of Agriculture",
+		point_of_contact_phone: "701-328-1500",
+		point_of_contact_email: "reg@nd.com",
+	},
+	{
+		id: 39,
+		state: "SoilMaxx for California",
+		license_statues: APPROVED,
+		product_status: APPROVED,
+		is_soil_amendment: "No",
+		notes: "SoilMaxx is MyCorrPlus-O",
+		product_expiration: "December 2026",
+		color: APPROVED_COLOR,
+		point_of_contact_name:
+			"GDA Licensing Division Georgia Department of Agriculture",
+		point_of_contact_phone: "701-328-1500",
+		point_of_contact_email: "reg@nd.com",
+	},
+	{
+		id: 40,
+		state: "GroPal for California",
+		license_statues: APPROVED,
+		product_status: APPROVED,
+		notes: "SoilMaxx is MyCorrPlus-O",
+		is_soil_amendment: "Yes",
+		product_expiration: "December 2026",
 		color: APPROVED_COLOR,
 		point_of_contact_name:
 			"GDA Licensing Division Georgia Department of Agriculture",
