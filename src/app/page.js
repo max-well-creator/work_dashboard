@@ -13,10 +13,11 @@ import {
 import React from "react";
 import styles from "./home.module.scss";
 import WorkLinks from "../components/InportantLinks/WorkLinks";
+import Scratchpad from "@/components/Scratchpad/Scratchpad";
 
 export default function Home() {
 	return (
-		<div>
+		<div className={styles.homeContainer}>
 			<div className={styles.workLinksContainer}>
 				<div styles={styles.customerLinks}>
 					<WorkLinks title="Customer" links={CustomerWebsiteLinks} />
@@ -43,6 +44,9 @@ export default function Home() {
 				<div styles={styles.MaxWellWebsites}>
 					<WorkLinks title="Max-Well Links" links={MaxWellResources} />
 				</div>
+			</div>
+			<div className={styles.scratchpad}>
+				<Scratchpad />
 			</div>
 		</div>
 	);
