@@ -44,3 +44,9 @@ button {
     transform: translateY(1px);
   }
 }
+hr {
+  border: 0;
+  height: 1px;
+  background: linear-gradient(to right, #2575fc, #6a11cb);
+  margin: 2rem 0;
+}

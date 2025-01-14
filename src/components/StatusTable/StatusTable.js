@@ -42,12 +42,13 @@ const StatusTable = () => {
 				{statesRegData.map((row) => {
 					const rowColorClass = getRowColorClass(row.color);
 					return (
-						<CustomCard
-							key={row.id}
-							dataHeaders={dataHeaders}
-							row={row}
-							background={rowColorClass}
-						/>
+						<div className={styles.status_card} key={row.id}>
+							<CustomCard
+								dataHeaders={dataHeaders}
+								row={row}
+								background={rowColorClass}
+							/>
+						</div>
 					);
 				})}
 			</div>

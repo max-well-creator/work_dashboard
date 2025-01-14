@@ -1,11 +1,11 @@
 import React from "react";
 import ContactInfo from "./ContactInfo/ContactInfo";
 import AddressInfo from "./AddressInfo/AddressInfo";
+import styles from "./scratchpad.module.scss";
 
 const Scratchpad = () => {
 	return (
-		<div>
-			<hr />
+		<div className={styles.scratchpad}>
 			<AddressInfo
 				name="AG-USA, LLC"
 				taxId="82-1839219"
@@ -15,7 +15,7 @@ const Scratchpad = () => {
 				website="https://www.ag-usa.net/"
 				billingAddress="545 Mapledale Trail, Sharpsburg, GA 30277"
 			/>
-			<hr />
+
 			<ContactInfo
 				name="Paul Schneider Jr"
 				title="President"

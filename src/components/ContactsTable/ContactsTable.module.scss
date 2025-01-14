@@ -1,3 +1,19 @@
+@media (max-width: 768px) {
+  .tableContainer {
+    padding: 1rem 0.5rem;
+  }
+
+  .contactsTable {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .contactsTable th,
+  .contactsTable td {
+    white-space: normal;
+  }
+}
 .tableContainer {
   width: 100%;
   margin: 0;

@@ -14,7 +14,7 @@ export const stateFrequencies = [
 		november_2024_tonnage: ".01",
 		inspection_fee: 0.375,
 		due: "The 20th of every month",
-		last_completed: "Dec 13, 2024",
+		last_completed: "Jan 6, 2025",
 	},
 	{
 		state: "New Mexico",
@@ -52,6 +52,7 @@ export const stateFrequencies = [
 		how_to_submit:
 			'<a href="https://www.kellysolutions.com/ga/fert/tonnage/login.asp" target="_blank" rel="noopener noreferrer">https://www.kellysolutions.com</a>',
 		due: "Jan 15 / April 15 / July 15 / October 15,",
+		last_completed: "Jan 13, 2025",
 	},
 	{
 		state: "Iowa",

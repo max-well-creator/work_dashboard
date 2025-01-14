@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function ContactsTable({ contacts }) {
 	return (
 		<section className={styles.contactsSection}>
-			<Table hover responsive striped className={styles.contactsTable}>
+			<Table hover striped className={styles.contactsTable}>
 				<thead>
 					<tr>
 						<th>Name</th>

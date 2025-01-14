@@ -8,7 +8,7 @@ export default function TonnageSchedule() {
 	return (
 		<section className={styles.schedule}>
 			<div className={styles.table}>
-				<Table hover responsive striped>
+				<Table hover striped>
 					<thead>
 						<tr>
 							<th>State</th>
