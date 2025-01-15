@@ -10,7 +10,7 @@ const NOREGISTRATIONREQUIRED = "'A' & 'O' do not require registration";
 const APPROVED_COLOR = "#6fbf73";
 const REJECTED_COLOR = "#f77b72";
 const PENDING_COLOR = "yellow";
-
+const IS_SOIL_AMENDMENT = "Are these listed as soil amendments";
 const dataHeaders = {
 	ID_HEADING,
 	STATE_HEADING,
@@ -24,6 +24,7 @@ const dataHeaders = {
 	APPROVED_COLOR,
 	REJECTED_COLOR,
 	PENDING_COLOR,
+	IS_SOIL_AMENDMENT,
 };
 
 export default dataHeaders;

@@ -19,7 +19,7 @@ const OngoingProjects = () => {
 					phone="404-693-2194"
 					email="heidi@fmusa.org"
 				/>
-				<p> Email Heidi on Jan 14, 2025</p>
+				<p>Emailed Heidi on Jan 14, 2025</p>
 			</div>
 			<hr />
 			<div className={styles.contact_container}>
@@ -29,7 +29,7 @@ const OngoingProjects = () => {
 					phone="404-693-2194"
 					email="flash@psmail.net"
 				/>
-				<p> Email Heidi on Jan 14, 2025</p>
+				<p> Emailed Davi on Jan 15, 2025</p>
 			</div>
 		</div>
 	);

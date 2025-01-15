@@ -429,7 +429,7 @@ const statesRegData = [
 		state: "Tennessee",
 		product_status:
 			"No Individual Product Registration need just register the company. Per rane.j.sewell@tn.gov - filled out application and emailed 9-25-24",
-		notes: "",
+		notes: "Emailed rane.j.sewell@tn.gov on Jan 15, 2025",
 		is_soil_amendment: "?",
 		product_expiration: "",
 		point_of_contact_name: "RANE’ SEWELL",

@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Button } from "reactstrap";
+import { Card } from "reactstrap";
 
 import styles from "./CustomCard.module.scss";
 
@@ -10,6 +10,7 @@ export default function CustomCard({ row, dataHeaders, background }) {
 		product_status,
 		product_expiration,
 		notes,
+		is_soil_amendment,
 		point_of_contact_email,
 		point_of_contact_name,
 		point_of_contact_phone,
@@ -21,10 +22,12 @@ export default function CustomCard({ row, dataHeaders, background }) {
 		EXPIRATION_HEADING,
 		NOTES_HEADING,
 		CONTACT_HEADING,
+		IS_SOIL_AMENDMENT,
 	} = dataHeaders;
 
 	// Data fields and their corresponding headers
 	const fields = [
+		{ label: IS_SOIL_AMENDMENT, value: is_soil_amendment },
 		{ label: STATUS_HEADING, value: license_statues },
 		{ label: PORDUCT_STATUS_HEADING, value: product_status },
 		{ label: EXPIRATION_HEADING, value: product_expiration },
