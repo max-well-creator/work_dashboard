@@ -13,7 +13,11 @@ export default function TonnageSchedule() {
 						<tr>
 							<th>State</th>
 							<th>Frequency</th>
+							<th>Notes</th>
+							<th>Requires county in report?</th>
 							<th>How to Submit Tonnage</th>
+							<th>Due Date</th>
+							<th>Last Completed</th>
 						</tr>
 					</thead>
 					<tbody>
@@ -21,10 +25,15 @@ export default function TonnageSchedule() {
 							<tr key={index}>
 								<td>{item.state}</td>
 								<td>{item.frequency}</td>
+								<td className={styles.notes}>{item.notes}</td>
+								<td>{item.requires_county_in_tonnage}</td>
 								<td
+									className={styles.submit}
 									dangerouslySetInnerHTML={{
 										__html: item.how_to_submit,
 									}}></td>
+								<td>{item.due}</td>
+								<td>{item.last_completed}</td>
 							</tr>
 						))}
 					</tbody>
