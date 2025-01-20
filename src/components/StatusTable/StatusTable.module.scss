@@ -9,8 +9,14 @@
   &:hover {
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
   }
+  
+.totalSearch {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+  }
 }
-
 .statusTable {
   display: flex;
   justify-content: space-around;
@@ -22,11 +28,22 @@
   background-color: #d4edda !important; // Light green background for approved
 }
 
+.approvedHeading {
+  color: green
+}
+
 .statusRejected {
   background-color: #f8d7da !important; // Light red background for rejected
+}
+.rejectedHeading {
+  color: red;
 }
 
 .statusPending {
   background-color: #fff3cd !important; // Light yellow background for pending
+}
+
+.pendingHeading {
+  color: rgb(152, 152, 42);
 }
 

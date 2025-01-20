@@ -183,8 +183,7 @@ const statesRegData = [
 		product_status: APPROVED,
 		notes: "",
 		is_soil_amendment: "Yes",
-		product_expiration:
-			"Payment Pending for January 2025 and print Idaho certificate after payment is processed",
+		product_expiration: "December 31, 2025",
 		color: APPROVED_COLOR,
 		renew_at:
 			'Renew registrations at <a href="https://www.isda.idaho.gov/ffs/" target= "_blank">Idaho Department of Agriculture</a>',
