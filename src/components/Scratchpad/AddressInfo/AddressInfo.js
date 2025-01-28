@@ -12,10 +12,11 @@ const AddressInfo = ({
 		<p>Physical Address: {addressLine1}</p>
 		<p>Mailing Address: {addressLine2}</p>
 		<p>Billing for Credit Card: {billingAddress}</p>
-		<p>{taxId}</p>
+		<p>Tax ID: {taxId}</p>
 		{phone && <p>Phone: {phone}</p>}
 		{website && (
 			<p>
+				Website:{" "}
 				<a href={website} target="_blank" rel="noopener noreferrer">
 					{website}
 				</a>
