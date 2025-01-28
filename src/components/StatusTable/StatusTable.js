@@ -4,7 +4,7 @@ import statesRegData from "@/data/stateRegistrationStatus";
 import React, { useState, useMemo } from "react";
 import styles from "./StatusTable.module.scss";
 import CustomCard from "../CustomCard/CustomCard";
-import Searchbar from "../Searchbar/searchbar";
+import Searchbar from "../Searchbar/Searchbar";
 
 const StatusTable = () => {
 	const { APPROVED_COLOR, REJECTED_COLOR, PENDING_COLOR } = dataHeaders;
