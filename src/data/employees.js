@@ -29,7 +29,7 @@ export const AGContacts = [
 		jobTitle: "Creative Liason",
 		businessPhone: "(706) 963-9105",
 		mobilePhone: "",
-		email: "warehouse@ag-usa.net",
+		email: "",
 	},
 	{
 		name: "Kathy Elash",
@@ -78,6 +78,14 @@ export const AGContacts = [
 		businessPhone: "",
 		mobilePhone: "678.876.1075",
 		email: "ron@ag-usa.net",
+	},
+	{
+		name: "Barbarra Long",
+		company: "AG-USA, LLC",
+		jobTitle: "Sales Consultant",
+		businessPhone: "",
+		mobilePhone: "(678) 675-2878",
+		email: "",
 	},
 	{
 		name: "Kevin Schwob",

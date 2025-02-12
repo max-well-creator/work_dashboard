@@ -34,6 +34,11 @@ export const FileStorage = [
 
 export const Server = [
 	{
+		title: "Siteground - New Sever",
+		description: "Max-Well Server",
+		url: "https://my.siteground.com/",
+	},
+	{
 		title: "Email Login",
 		description: "AG-USA/Max-Well email servers",
 		url: "https://wcp.hostek.com/Login.aspx",
