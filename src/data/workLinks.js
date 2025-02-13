@@ -59,19 +59,6 @@ export const CRMTools = [
 	},
 ];
 
-export const SalesSites = [
-	{
-		title: "New MaxGoodness",
-		description: "Updated sales site for MaxGoodness",
-		url: "https://www.maxgoodness.com/",
-	},
-	{
-		title: "Legacy Max-Goodness",
-		description: "Original sales site for Max-Goodness",
-		url: "https://www.max-goodness.com/",
-	},
-];
-
 export const PaymentGateways = [
 	{
 		title: "Max-Well Payment Processor",
@@ -85,11 +72,6 @@ export const MaxWellResources = [
 		title: "MaxGoodness (New Site Admin)",
 		description: "Shopify back-office portal for the new MaxGoodness site",
 		url: "https://admin.shopify.com/store/5649a3-b0",
-	},
-	{
-		title: "MaxGoodness (Legacy Site Admin)",
-		description: "Ecwid back-office portal for the legacy Max-Goodness site",
-		url: "https://my.ecwid.com/store/84511114?_gl=1*18xzb6l*_up*MQ..#dashboard:wizard=tiles",
 	},
 	{
 		title: "Code Repository",
