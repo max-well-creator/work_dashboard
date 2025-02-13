@@ -4,8 +4,6 @@ import {
 	FileStorage,
 	Server,
 	CRMTools,
-	ReportingTools,
-	SalesSites,
 	PaymentGateways,
 	MaxWellResources,
 } from "../data/workLinks";
@@ -38,10 +36,6 @@ export default function Home() {
 					</div>
 					<div styles={styles.cRMLinks}>
 						<WorkLinks title="CRM" links={CRMTools} />
-					</div>
-
-					<div styles={styles.salesLinks}>
-						<WorkLinks title="Sales" links={SalesSites} />
 					</div>
 					<div styles={styles.paymentProcessor}>
 						<WorkLinks title="Payment" links={PaymentGateways} />
